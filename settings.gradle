@@ -7,13 +7,4 @@ pluginManagement {
     }
 }
 
-dependencyResolutionManagement {
-    repositoriesMode.set(RepositoriesMode.PREFER_SETTINGS)
-    repositories {
-        maven { name = 'Fabric'; url = 'https://maven.fabricmc.net/' }
-        maven { name = 'Mojang'; url = 'https://libraries.minecraft.net/' }
-        mavenCentral()
-    }
-}
-
 rootProject.name = 'tree-physics-1.21.11'
