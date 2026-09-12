@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "treephysics",
+  "version": "${version}",
+  "name": "Tree Physics",
+  "description": "Makes connected tree logs fall as physical blocks when a tree is cut.",
+  "authors": ["LemoMax_YT"],
+  "contact": {
+    "sources": "https://github.com/LemoMaxYT/Tinker-russ"
+  },
+  "license": "MIT",
+  "icon": "assets/treephysics/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["dev.lemomax.treephysics.TreePhysics"]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.1",
+    "minecraft": "1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
